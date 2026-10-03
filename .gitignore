@@ -1,0 +1,50 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Python environments
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+
+# Test, type-checker, and linter caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Python packaging output
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Local environment configuration (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local video-export
+visualiser.mov
+
+# Local video-export cancellation marker
+.export-stop
+
+# Ableton automatic backups and macOS metadata
+twelve-tones Project/Backup/
+Icon_
+.DS_Store
